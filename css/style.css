@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: salmon;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.navbar a:hover  {
+    background-color: red;
+    color: white;
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+}
+
+#top-nav {
+    transition: 1s;
+}
